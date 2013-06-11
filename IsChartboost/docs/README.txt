@@ -8,9 +8,9 @@ This Extension currently supports
 //  ANDROID 
         built using ndk android-ndk-r8b
 
-//  ===================================================
+//  ----------------------------------------------------
 //  IsChartboost v0.2
-//  ===================================================
+//  ----------------------------------------------------
 //	Chartboost Android Version: 3.1.3
 //	Chartboost IOS Version: 3.2.1
         using ndk android-ndk-r8b
@@ -20,7 +20,7 @@ This Extension currently supports
 For additional information please see the official chartboost documentation
 regarding intended behaviour, current functionality withing the chartboost sdk
 and much more.
-=====================================================
+----------------------------------------------------
 
 
 Getting Started
