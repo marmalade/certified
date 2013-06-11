@@ -1,0 +1,16 @@
+#!/usr/bin/env mkb
+files
+{
+    ChartboostExample.cpp
+}
+
+
+subprojects
+{
+	./../IsChartboost
+}
+deployments
+{
+	["Default"]
+	android-pkgname='com.company.chartboostexample'
+}

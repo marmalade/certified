@@ -1,0 +1,6 @@
+[ISCHARTBOOST]
+DisableChartboost = 0
+AndroidAppID = ""
+AndroidAppSecret = ""
+IOSAppID  = ""
+IOSAppSecret = ""

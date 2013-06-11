@@ -1,0 +1,13 @@
+IsChartbooost Version 0.2
+=======================================================================
+- Updated IOS Chartboost SDK from 3.1 to 3.2.1
+- shouldRequestInterstitialsInFirstSession now defaults to false
+- IsChartboostSetAppID deprecated use ICF Setting AndroidAppID or IOSAppID
+- IsChartboostSetAppSignature deprecated use ICF Setting AndroidAppSecret or IOSAppSecret
+
+IsChartboost Version 0.1
+=======================================================================
+
+Supports Chartboost Caching, Named Locations and Delegates for Android and IOS
+
+Analytics has not yet been implemented.

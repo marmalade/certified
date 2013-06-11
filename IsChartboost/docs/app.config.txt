@@ -1,0 +1,9 @@
+[TRACE]
+CHARTBOOST              TRACE CHANNEL
+
+[ISCHARTBOOST]
+DisableChartboost   <integer>   1 = enabled , 0 = disabled , defaults to 0 if nothing is set
+AndroidAppID        <string>    Chartboost App ID for Android
+AndroidAppSecret    <string>    Chartboost App Secret for Android
+IOSAppID            <string>    Chartboost App ID for IOS
+IOSAppSecret        <string>    Chartboost App Secret for IOS
