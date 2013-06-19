@@ -1,0 +1,29 @@
+#!/usr/bin/env mkb
+# Builder mkb file for the java portion of the s3eAndroidGooglePlayBilling extension on android
+platform JAVA
+
+files
+{
+   (source/android/com/ideaworks3d/marmalade/s3eAndroidGooglePlayBilling)
+    s3eAndroidGooglePlayBilling.java
+    PurchaseProxy.java
+	
+	(source/android/com/ideaworks3d/marmalade/s3eAndroidGooglePlayBilling/util)
+	Base64.java
+	Base64DecoderException.java
+	IabException.java
+	IabHelper.java
+	IabResult.java
+	Inventory.java
+	Purchase.java
+	Security.java
+	SkuDetails.java
+
+    (source/android/com/android/vending/billing)
+    IInAppBillingService.java
+}
+
+librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
+librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
+
+option output-name=lib/android/s3eAndroidGooglePlayBilling.jar
