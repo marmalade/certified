@@ -15,8 +15,8 @@ extension has been tested using Marmalade SDK 6.2.2, and should work on all high
 The extension includes a buildable example. In order to run it you will need to provide your own keys and Google 
 Developer details (see below).
 
-V 1.0.2 - Fixed an issue with the Proxy Activity being recreated under the IabHelper
-V 1.0.1 - Initial release. 
+- V 1.0.2 Fixed an issue with the Proxy Activity being recreated under the IabHelper
+- V 1.0.1 Initial release. 
 
 Marmalade acknowledges that this extension is considered Certified but does not guarantee its maintenance. All 
 Certified Marmalade extensions are open sourced and we encourage users to make modifications to suite their needs.
@@ -33,11 +33,13 @@ Instructions:
 - Set up IAP for your product in the Google Developer Console
 - Copy this folder into your project path and add the relative path to the extension mkf file to your main mkb. For instance: 
 
-    subprojects\n
-    {\n
-        ../ s3eAndroidGooglePlayBilling/ s3eAndroidGooglePlayBilling.mkf\n
-    }\n
-    
+```
+subprojects
+{
+    ../ s3eAndroidGooglePlayBilling/ s3eAndroidGooglePlayBilling.mkf
+}
+```
+
 - Include s3eAndroidGooglePlayBilling.h
 - On the Google Developer Console, select your app, go to Services and APIs, locate the Base64 encoded RSA public key and 
 copy it into a string in your App. (Note this isn't the key you use to sign your app, it's your Google public license 
@@ -60,7 +62,8 @@ What does this extension support?
 - Restoring previous transactions - see s3eAndroidGooglePlayBillingRestoreTransactions
 - Retrieving details of items in your store - see s3eAndroidGooglePlayBillingRequestProductInformation
 - Consumption of items previously purchased - see s3eAndroidGooglePlayBillingConsumeItem
-- All calls are asynchronous, meaning in order to receive the response you need to register a callback. See s32AndroidGooglePlayBillingRegister.
+- All calls are asynchronous, meaning in order to receive the response you need to register a callback. 
+See s3eAndroidGooglePlayBillingRegister.
 - The v3 interface moved to managed in-app and subscription items only. When a user purchases a managed item they 
 will be unable to purchase it again until you issue a consume call. For in game Consumable goods such as coins that 
 you want the user to be able to purchase repeatedly, you must issue a Consume call after each successful purchase. 
