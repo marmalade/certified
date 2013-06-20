@@ -33,13 +33,15 @@ Instructions:
 - Set up IAP for your product in the Google Developer Console
 - Copy this folder into your project path and add the relative path to the extension mkf file to your main mkb. For instance: 
 
-    subprojects
-    {
-        ../ s3eAndroidGooglePlayBilling/ s3eAndroidGooglePlayBilling.mkf
-    }
+    subprojects\n
+    {\n
+        ../ s3eAndroidGooglePlayBilling/ s3eAndroidGooglePlayBilling.mkf\n
+    }\n
     
 - Include s3eAndroidGooglePlayBilling.h
-- On Google Developer Console, select your app, go to Services and APIs, locate the Base64 encoded RSA public key and copy it into a string in your App. (Note this isn�t the key you use to sign your App, it�s your Google public license key).
+- On the Google Developer Console, select your app, go to Services and APIs, locate the Base64 encoded RSA public key and 
+copy it into a string in your App. (Note this isn't the key you use to sign your app, it's your Google public license 
+key).
 - Initialise the extension with this key by calling s3eAndroidGooglePlayBillingStart.
 - See the header file for additional documentation.
 
