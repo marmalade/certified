@@ -25,6 +25,7 @@ import java.util.ArrayList;
 class s3eAndroidGooglePlayBilling
 {
 	private static final String TAG = "s3eAndroidGooglePlayBilling";
+
     // The helper object
     public static IabHelper mHelper;
     private boolean s3eAndroidGooglePlayBillingAvailable = false;
@@ -37,6 +38,7 @@ class s3eAndroidGooglePlayBilling
             Log.d(TAG, "ERROR: No public key sent.");
             return 1; // S3E_RESULT_ERROR
     	}
+
         // Create the helper, passing it our context and the public key to verify signatures with
         Log.d(TAG, "Creating IAB helper.");
         mHelper = new IabHelper(LoaderAPI.getActivity(),base64Key);
@@ -81,7 +83,8 @@ class s3eAndroidGooglePlayBilling
     
     public int s3eAndroidGooglePlayBillingIsSupported()
     {
-        return (s3eAndroidGooglePlayBillingAvailable)?1:0;
+		// this will be converted into an S3E_RESULT , SUCCESS is 0
+        return (s3eAndroidGooglePlayBillingAvailable)?0:1;
     }
     
     // Callback for when a purchase is finished - note this is static final and so the same listener is used across multiple instances of this class (which shouldn't happen as it's created once by Marmalade)

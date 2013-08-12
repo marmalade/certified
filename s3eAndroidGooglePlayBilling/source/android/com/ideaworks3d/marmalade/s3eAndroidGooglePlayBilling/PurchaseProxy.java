@@ -20,6 +20,29 @@ public class PurchaseProxy extends Activity
     private static final String TAG = "PurchaseProxy";
     private static boolean proxyIsActive = false;
 
+	// Because this is activity is pushed atop the current, if it has been paused
+	// assume the application has been paused 
+	protected void onPause()
+	{
+	    Log.d(TAG, "Proxy OnPause");
+		super.onPause();
+
+		if (this.isFinishing())
+		{
+			Log.d(TAG, "Finishing Proxy..... return..");
+			return;
+		}
+
+		proxyIsActive = false;
+		finish();
+
+	}
+
+	protected void onResume()
+	{
+	    Log.d(TAG, "Proxy onResume");
+		super.onResume();
+	}
 	 /**
      * 
      * Helper Activity used during the purchase flow, the only reason this is required is to get hold of the
@@ -76,10 +99,12 @@ public class PurchaseProxy extends Activity
 	    {
 	        public void onIabPurchaseFinished(IabResult result, Purchase purchase) 
 	        {
+				Log.d(TAG, "onIabPurchaseFinished");
+
 	        	s3eAndroidGooglePlayBilling.mPurchaseFinishedListener.onIabPurchaseFinished(result,purchase);
 		        Log.d(TAG, "PurchaseProxy Activity - Closing Activity");
 	            proxyIsActive = false;
-	            finish(); // Activity is done
+				finish(); // Activity is done
 	        }
 	    };
 };

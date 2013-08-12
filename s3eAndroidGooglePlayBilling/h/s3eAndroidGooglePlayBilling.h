@@ -121,7 +121,7 @@ enum s3eAndroidGooglePlayBillingResult
     /** Fatal error during the API action */
     S3E_ANDROIDGOOGLEPLAYBILLING_RESULT_ERROR = 6,
 
-    /** Failure to purchase since item is already owned */
+    /** Failure to purchase since item is already owned - make sure you called s3eAndroidGooglePlayBillingConsumeItem */
     S3E_ANDROIDGOOGLEPLAYBILLING_RESULT_ITEM_ALREADY_OWNED = 7,
 
     /** Failure to consume since item is not owned */
@@ -337,7 +337,7 @@ s3eResult s3eAndroidGooglePlayBillingIsSupported();
 /**
  * Initiates the purchase of an item given a product ID 
  * You need to register for the S3E_ANDROIDGOOGLEPLAYBILLING_PURCHASE_CALLBACK callback to determine the outcome of the purchase and award the purchase in your app. 
- * For consumable "inApp" goods you *MUST* also call s3eAndroidGooglePlayBillingConsumeItem. Until you do this the item will not be available for purchase again in the store.
+ * For consumable "inApp" goods you *MUST* also call s3eAndroidGooglePlayBillingConsumeItem. Until you do this the item will not be available for purchase again in the store and you will get S3E_ANDROIDGOOGLEPLAYBILLING_RESULT_ITEM_ALREADY_OWNED
  * Note, for additional security use the purchase developerPayload but make sure it's unique to the purchase and not dependent on the device.
  * Associated callback S3E_ANDROIDGOOGLEPLAYBILLING_PURCHASE_CALLBACK
  * @param purchaseID [UTF-8 encoded] item ID to be purchased.
