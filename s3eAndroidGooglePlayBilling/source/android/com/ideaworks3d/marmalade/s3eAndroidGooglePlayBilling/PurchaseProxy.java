@@ -18,7 +18,6 @@ public class PurchaseProxy extends Activity
     // (arbitrary) request code for the purchase flow
     static final int RC_REQUEST = 3147;
     private static final String TAG = "PurchaseProxy";
-    private static boolean proxyIsActive = false;
 
 	// Because this is activity is pushed atop the current, if it has been paused
 	// assume the application has been paused 
@@ -26,16 +25,6 @@ public class PurchaseProxy extends Activity
 	{
 	    Log.d(TAG, "Proxy OnPause");
 		super.onPause();
-
-		if (this.isFinishing())
-		{
-			Log.d(TAG, "Finishing Proxy..... return..");
-			return;
-		}
-
-		proxyIsActive = false;
-		finish();
-
 	}
 
 	protected void onResume()
@@ -56,15 +45,10 @@ public class PurchaseProxy extends Activity
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        
-	        if (proxyIsActive)
-	        { // Some system reconfiguration event (rotate etc) caused our Activity to be recreated - don't start the helper again
-		        Log.d(TAG, "PurchaseProxy Activity has been restarted with Helper in flight - notifying IabHelper");
-		        s3eAndroidGooglePlayBilling.mHelper.SetPurchaseListener(this.mProxyPurchaseFinishedListener);
-	        }
-	        else
-	        {
-		        Log.d(TAG, "PurchaseProxy Activity has been started");
-		        proxyIsActive = true;       
+			if( s3eAndroidGooglePlayBilling.m_SendRequest )
+			{
+				s3eAndroidGooglePlayBilling.m_SendRequest = false;
+				     
 		        Intent i = getIntent();
 		        String productID = i.getStringExtra("productID");
 		        String developerPayLoad = i.getStringExtra("developerPayLoad");
@@ -74,7 +58,12 @@ public class PurchaseProxy extends Activity
 		        	s3eAndroidGooglePlayBilling.mHelper.launchPurchaseFlow(this, productID, RC_REQUEST, mProxyPurchaseFinishedListener, developerPayLoad);
 		        else
 		        	s3eAndroidGooglePlayBilling.mHelper.launchSubscriptionPurchaseFlow(this, productID, RC_REQUEST, mProxyPurchaseFinishedListener, developerPayLoad);
-	        }
+			}
+
+	            // Some system reconfiguration event (rotate etc) caused our Activity to be recreated - don't start the helper again
+		        Log.d(TAG, "PurchaseProxy Activity has been restarted with Helper in flight - notifying IabHelper");
+		        s3eAndroidGooglePlayBilling.mHelper.SetPurchaseListener(this.mProxyPurchaseFinishedListener);
+	        
 	    }		
 	    
 	    @Override
@@ -90,7 +79,6 @@ public class PurchaseProxy extends Activity
 	        }
 	        else {
 	            Log.d(TAG, "onActivityResult forwarded by PurchaseProxy. Closing down.");
-	            //finish(); // listener will close down Activity
 	        }
 	    }
 	    
@@ -103,7 +91,6 @@ public class PurchaseProxy extends Activity
 
 	        	s3eAndroidGooglePlayBilling.mPurchaseFinishedListener.onIabPurchaseFinished(result,purchase);
 		        Log.d(TAG, "PurchaseProxy Activity - Closing Activity");
-	            proxyIsActive = false;
 				finish(); // Activity is done
 	        }
 	    };

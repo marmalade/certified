@@ -29,7 +29,8 @@ class s3eAndroidGooglePlayBilling
     // The helper object
     public static IabHelper mHelper;
     private boolean s3eAndroidGooglePlayBillingAvailable = false;
-    
+    public static boolean m_SendRequest = false;
+
     public int s3eAndroidGooglePlayBillingStart(String base64Key)
     {
 	    Log.d(TAG, "s3eAndroidGooglePlayBillingStart called.");
@@ -113,11 +114,12 @@ class s3eAndroidGooglePlayBilling
     		safe_native_PURCHASE_CALLBACK(err,null);
     		return;
     	}
-    	
+    	m_SendRequest = true;
     	Intent i = new Intent(LoaderAPI.getActivity(), PurchaseProxy.class);
     	i.putExtra("productID",productID);
     	i.putExtra("inApp",inApp);
     	i.putExtra("developerPayLoad",developerPayLoad);   	
+
     	
     	// launch our Activity inner class - it will close itself down when we have a response
     	LoaderAPI.getActivity().startActivity(i);
