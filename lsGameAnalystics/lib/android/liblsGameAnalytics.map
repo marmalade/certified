@@ -1,0 +1,659 @@
+Archive member included because of file (symbol)
+
+C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                              release\lsGameAnalytics_register.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ _ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ _ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ _ZN7_JNIEnv17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ .text          0x00000000        0x0 release\lsGameAnalytics_platform.os
+ .data          0x00000000        0x0 release\lsGameAnalytics_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release\lsGameAnalytics_platform.os
+ .text          0x00000000        0x0 release\lsGameAnalytics.os
+ .data          0x00000000        0x0 release\lsGameAnalytics.os
+ .bss           0x00000000        0x0 release\lsGameAnalytics.os
+ .note.GNU-stack
+                0x00000000        0x0 release\lsGameAnalytics.os
+ .text          0x00000000        0x0 release\lsGameAnalytics_register.os
+ .data          0x00000000        0x0 release\lsGameAnalytics_register.os
+ .bss           0x00000000        0x0 release\lsGameAnalytics_register.os
+ .text._Z26lsGameAnalyticsRegisterExtv
+                0x00000000        0x0 release\lsGameAnalytics_register.os
+ .note.GNU-stack
+                0x00000000        0x0 release\lsGameAnalytics_register.os
+ .text          0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+LOAD release\lsGameAnalytics_platform.os
+LOAD release\lsGameAnalytics.os
+LOAD release\lsGameAnalytics_register.os
+LOAD C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a
+LOAD C:\marmalade\7.0.2\s3e\edk\lib\android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/liblog.so
+LOAD C:\android-ndk-r8e\sources\cxx-stl\gnu-libstdc++\4.4.3\libs\armeabi\libgnustl_static.a
+LOAD c:/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/libstdc++.so
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/libm.so
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/libc.so
+LOAD c:/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/libc.so
+LOAD C:\android-ndk-r8e\platforms\android-9\arch-arm\usr\lib/libdl.so
+LOAD c:/android-ndk-r8e/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+LOAD C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4       0xa8
+ *(.hash)
+ .hash          0x000000d4       0xa8 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000017c      0x170
+ *(.dynsym)
+ .dynsym        0x0000017c      0x170 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.dynstr         0x000002ec      0x13e
+ *(.dynstr)
+ .dynstr        0x000002ec      0x13e C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version    0x0000042a        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version_d  0x0000042c        0x0 load address 0x0000042a
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.gnu.version_r  0x0000042c        0x0 load address 0x0000042a
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rel.dyn        0x0000042c       0xf8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000042c       0xf0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.fini_array
+                0x0000051c        0x8 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x00000524       0x30
+ *(.rel.plt)
+ .rel.plt       0x00000524       0x30 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x00000554       0x5c
+ *(.plt)
+ .plt           0x00000554       0x5c C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+
+.text           0x000005b0     0x1d98
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text.exit     0x000005b0       0x10 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x000005b0                __on_dlclose
+ .text._ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
+                0x000005c0       0x14 release\lsGameAnalytics_platform.os
+                0x000005c0                _JNIEnv::GetMethodID(_jclass*, char const*, char const*)
+ .text._Z33lsGameAnalyticsTerminate_platformv
+                0x000005d4        0x4 release\lsGameAnalytics_platform.os
+                0x000005d4                lsGameAnalyticsTerminate_platform()
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x000005d8       0x34 release\lsGameAnalytics_platform.os
+                0x000005d8                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+                0x0000060c       0x34 release\lsGameAnalytics_platform.os
+                0x0000060c                _JNIEnv::CallObjectMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv17CallBooleanMethodEP8_jobjectP10_jmethodIDz
+                0x00000640       0x34 release\lsGameAnalytics_platform.os
+                0x00000640                _JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000674       0x34 release\lsGameAnalytics_platform.os
+                0x00000674                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._Z35lsGameAnalyticsStopSession_platformv
+                0x000006a8       0x4c release\lsGameAnalytics_platform.os
+                0x000006a8                lsGameAnalyticsStopSession_platform()
+ .text._Z36lsGameAnalyticsStartSession_platformv
+                0x000006f4       0x50 release\lsGameAnalytics_platform.os
+                0x000006f4                lsGameAnalyticsStartSession_platform()
+ .text._Z36lsGameAnalysticsManualBatch_platformv
+                0x00000744       0x50 release\lsGameAnalytics_platform.os
+                0x00000744                lsGameAnalysticsManualBatch_platform()
+ .text._Z47lsGameAnalysticsSetMaximumEventStorage_platformi
+                0x00000794       0x58 release\lsGameAnalytics_platform.os
+                0x00000794                lsGameAnalysticsSetMaximumEventStorage_platform(int)
+ .text._Z37lsGameAnalysticsSetAutoBatch_platformb
+                0x000007ec       0x58 release\lsGameAnalytics_platform.os
+                0x000007ec                lsGameAnalysticsSetAutoBatch_platform(bool)
+ .text._Z40lsGameAnalysticsSetLocalCaching_platformb
+                0x00000844       0x58 release\lsGameAnalytics_platform.os
+                0x00000844                lsGameAnalysticsSetLocalCaching_platform(bool)
+ .text._Z38lsGameAnalysticsClearDatabase_platformv
+                0x0000089c       0x50 release\lsGameAnalytics_platform.os
+                0x0000089c                lsGameAnalysticsClearDatabase_platform()
+ .text._Z47lsGameAnalysticsSetNetworkPollInterval_platformi
+                0x000008ec       0x58 release\lsGameAnalytics_platform.os
+                0x000008ec                lsGameAnalysticsSetNetworkPollInterval_platform(int)
+ .text._Z46lsGameAnalysticsSetSendEventsInterval_platformi
+                0x00000944       0x58 release\lsGameAnalytics_platform.os
+                0x00000944                lsGameAnalysticsSetSendEventsInterval_platform(int)
+ .text._Z41lsGameAnalysticsSetDebugLogLevel_platformi
+                0x0000099c       0x58 release\lsGameAnalytics_platform.os
+                0x0000099c                lsGameAnalysticsSetDebugLogLevel_platform(int)
+ .text._Z47lsGameAnalysticsLogUnhandledExceptions_platformv
+                0x000009f4       0x50 release\lsGameAnalytics_platform.os
+                0x000009f4                lsGameAnalysticsLogUnhandledExceptions_platform()
+ .text._Z48lsGameAnalysticsSetMinimumFPSTimePeriod_platformi
+                0x00000a44       0x58 release\lsGameAnalytics_platform.os
+                0x00000a44                lsGameAnalysticsSetMinimumFPSTimePeriod_platform(int)
+ .text._Z44lsGameAnalysticsSetCriticalFPSLimit_platformi
+                0x00000a9c       0x58 release\lsGameAnalytics_platform.os
+                0x00000a9c                lsGameAnalysticsSetCriticalFPSLimit_platform(int)
+ .text._Z31lsGameAnalysticsLogFPS_platformv
+                0x00000af4       0x50 release\lsGameAnalytics_platform.os
+                0x00000af4                lsGameAnalysticsLogFPS_platform()
+ .text._Z42lsGameAnalysticsSetSessionTimeOut_platformi
+                0x00000b44       0x58 release\lsGameAnalytics_platform.os
+                0x00000b44                lsGameAnalysticsSetSessionTimeOut_platform(int)
+ .text._Z37lsGameAnalyticsIsInitialised_platformv
+                0x00000b9c       0x58 release\lsGameAnalytics_platform.os
+                0x00000b9c                lsGameAnalyticsIsInitialised_platform()
+ .text._Z40lsGameAnalyticsIsSessionStarted_platformv
+                0x00000bf4       0x58 release\lsGameAnalytics_platform.os
+                0x00000bf4                lsGameAnalyticsIsSessionStarted_platform()
+ .text._Z39lsGameAnalysticsStopLoggingFPS_platformPKcfff
+                0x00000c4c       0x9c release\lsGameAnalytics_platform.os
+                0x00000c4c                lsGameAnalysticsStopLoggingFPS_platform(char const*, float, float, float)
+ .text._Z35lsGameAnalyticsSetUserInfo_platformPKcii
+                0x00000ce8       0x80 release\lsGameAnalytics_platform.os
+                0x00000ce8                lsGameAnalyticsSetUserInfo_platform(char const*, int, int)
+ .text._Z34lsGameAnalysticsSetUserId_platformPKc
+                0x00000d68       0x70 release\lsGameAnalytics_platform.os
+                0x00000d68                lsGameAnalysticsSetUserId_platform(char const*)
+ .text._Z38lsGameAnalyticsNewDesignEvent_platformPKcfS0_fff
+                0x00000dd8       0xc8 release\lsGameAnalytics_platform.os
+                0x00000dd8                lsGameAnalyticsNewDesignEvent_platform(char const*, float, char const*, float, float, float)
+ .text._Z34lsGameAnalysticsGetUserId_platformPc
+                0x00000ea0       0xac release\lsGameAnalytics_platform.os
+                0x00000ea0                lsGameAnalysticsGetUserId_platform(char*)
+ .text._Z41lsGameAnalysticsNewBusinessEvent_platformPKcS0_iS0_fff
+                0x00000f4c       0xdc release\lsGameAnalytics_platform.os
+                0x00000f4c                lsGameAnalysticsNewBusinessEvent_platform(char const*, char const*, int, char const*, float, float, float)
+ .text._Z36lsGameAnalyticsNewUserEvent_platformPKcS0_iiS0_fff
+                0x00001028       0xe0 release\lsGameAnalytics_platform.os
+                0x00001028                lsGameAnalyticsNewUserEvent_platform(char const*, char const*, int, int, char const*, float, float, float)
+ .text._Z37lsGameAnalyticsNewErrorEvent_platformPKcS0_S0_fff
+                0x00001108       0xdc release\lsGameAnalytics_platform.os
+                0x00001108                lsGameAnalyticsNewErrorEvent_platform(char const*, char const*, char const*, float, float, float)
+ .text._Z39lsGameAnalyticsNewQualityEvent_platformPKcS0_S0_fff
+                0x000011e4       0xdc release\lsGameAnalytics_platform.os
+                0x000011e4                lsGameAnalyticsNewQualityEvent_platform(char const*, char const*, char const*, float, float, float)
+ .text._Z34lsGameAnalyticsInitialise_platformPKcS0_S0_
+                0x000012c0       0xb0 release\lsGameAnalytics_platform.os
+                0x000012c0                lsGameAnalyticsInitialise_platform(char const*, char const*, char const*)
+ .text._Z40lsGameAnalysticsSetReferralInfo_platformPKcS0_S0_S0_S0_S0_
+                0x00001370      0x108 release\lsGameAnalytics_platform.os
+                0x00001370                lsGameAnalysticsSetReferralInfo_platform(char const*, char const*, char const*, char const*, char const*, char const*)
+ .text._Z28lsGameAnalyticsInit_platformv
+                0x00001478      0x680 release\lsGameAnalytics_platform.os
+                0x00001478                lsGameAnalyticsInit_platform()
+ .text.lsGameAnalysticsClearDatabase
+                0x00001af8        0x4 release\lsGameAnalytics.os
+                0x00001af8                lsGameAnalysticsClearDatabase
+ .text.lsGameAnalysticsGetUserId
+                0x00001afc        0x4 release\lsGameAnalytics.os
+                0x00001afc                lsGameAnalysticsGetUserId
+ .text.lsGameAnalysticsManualBatch
+                0x00001b00        0x4 release\lsGameAnalytics.os
+                0x00001b00                lsGameAnalysticsManualBatch
+ .text.lsGameAnalysticsSetMaximumEventStorage
+                0x00001b04        0x4 release\lsGameAnalytics.os
+                0x00001b04                lsGameAnalysticsSetMaximumEventStorage
+ .text.lsGameAnalysticsSetAutoBatch
+                0x00001b08        0x4 release\lsGameAnalytics.os
+                0x00001b08                lsGameAnalysticsSetAutoBatch
+ .text.lsGameAnalysticsSetLocalCaching
+                0x00001b0c        0x4 release\lsGameAnalytics.os
+                0x00001b0c                lsGameAnalysticsSetLocalCaching
+ .text.lsGameAnalysticsSetDebugLogLevel
+                0x00001b10        0x4 release\lsGameAnalytics.os
+                0x00001b10                lsGameAnalysticsSetDebugLogLevel
+ .text.lsGameAnalysticsSetUserId
+                0x00001b14        0x4 release\lsGameAnalytics.os
+                0x00001b14                lsGameAnalysticsSetUserId
+ .text.lsGameAnalysticsLogUnhandledExceptions
+                0x00001b18        0x4 release\lsGameAnalytics.os
+                0x00001b18                lsGameAnalysticsLogUnhandledExceptions
+ .text.lsGameAnalysticsSetMinimumFPSTimePeriod
+                0x00001b1c        0x4 release\lsGameAnalytics.os
+                0x00001b1c                lsGameAnalysticsSetMinimumFPSTimePeriod
+ .text.lsGameAnalysticsSetCriticalFPSLimit
+                0x00001b20        0x4 release\lsGameAnalytics.os
+                0x00001b20                lsGameAnalysticsSetCriticalFPSLimit
+ .text.lsGameAnalysticsStopLoggingFPS
+                0x00001b24        0x4 release\lsGameAnalytics.os
+                0x00001b24                lsGameAnalysticsStopLoggingFPS
+ .text.lsGameAnalysticsLogFPS
+                0x00001b28        0x4 release\lsGameAnalytics.os
+                0x00001b28                lsGameAnalysticsLogFPS
+ .text.lsGameAnalysticsSetSessionTimeOut
+                0x00001b2c        0x4 release\lsGameAnalytics.os
+                0x00001b2c                lsGameAnalysticsSetSessionTimeOut
+ .text.lsGameAnalysticsSetNetworkPollInterval
+                0x00001b30        0x4 release\lsGameAnalytics.os
+                0x00001b30                lsGameAnalysticsSetNetworkPollInterval
+ .text.lsGameAnalysticsSetSendEventsInterval
+                0x00001b34        0x4 release\lsGameAnalytics.os
+                0x00001b34                lsGameAnalysticsSetSendEventsInterval
+ .text.lsGameAnalysticsNewBusinessEvent
+                0x00001b38        0x4 release\lsGameAnalytics.os
+                0x00001b38                lsGameAnalysticsNewBusinessEvent
+ .text.lsGameAnalysticsSetReferralInfo
+                0x00001b3c        0x4 release\lsGameAnalytics.os
+                0x00001b3c                lsGameAnalysticsSetReferralInfo
+ .text.lsGameAnalyticsSetUserInfo
+                0x00001b40        0x4 release\lsGameAnalytics.os
+                0x00001b40                lsGameAnalyticsSetUserInfo
+ .text.lsGameAnalyticsNewUserEvent
+                0x00001b44        0x4 release\lsGameAnalytics.os
+                0x00001b44                lsGameAnalyticsNewUserEvent
+ .text.lsGameAnalyticsNewErrorEvent
+                0x00001b48        0x4 release\lsGameAnalytics.os
+                0x00001b48                lsGameAnalyticsNewErrorEvent
+ .text.lsGameAnalyticsNewQualityEvent
+                0x00001b4c        0x4 release\lsGameAnalytics.os
+                0x00001b4c                lsGameAnalyticsNewQualityEvent
+ .text.lsGameAnalyticsNewDesignEvent
+                0x00001b50        0x4 release\lsGameAnalytics.os
+                0x00001b50                lsGameAnalyticsNewDesignEvent
+ .text.lsGameAnalyticsStopSession
+                0x00001b54        0x4 release\lsGameAnalytics.os
+                0x00001b54                lsGameAnalyticsStopSession
+ .text.lsGameAnalyticsStartSession
+                0x00001b58        0x4 release\lsGameAnalytics.os
+                0x00001b58                lsGameAnalyticsStartSession
+ .text.lsGameAnalyticsIsSessionStarted
+                0x00001b5c        0x4 release\lsGameAnalytics.os
+                0x00001b5c                lsGameAnalyticsIsSessionStarted
+ .text.lsGameAnalyticsIsInitialised
+                0x00001b60        0x4 release\lsGameAnalytics.os
+                0x00001b60                lsGameAnalyticsIsInitialised
+ .text.lsGameAnalyticsInitialise
+                0x00001b64        0x4 release\lsGameAnalytics.os
+                0x00001b64                lsGameAnalyticsInitialise
+ .text._Z24lsGameAnalyticsTerminatev
+                0x00001b68        0x4 release\lsGameAnalytics.os
+                0x00001b68                lsGameAnalyticsTerminate()
+ .text._Z19lsGameAnalyticsInitv
+                0x00001b6c        0x4 release\lsGameAnalytics.os
+                0x00001b6c                lsGameAnalyticsInit()
+ .text._ZL34lsGameAnalysticsClearDatabase_wrapv
+                0x00001b70       0x14 release\lsGameAnalytics_register.os
+ .text._ZL30lsGameAnalysticsGetUserId_wrapPc
+                0x00001b84       0x18 release\lsGameAnalytics_register.os
+ .text._ZL32lsGameAnalysticsManualBatch_wrapv
+                0x00001b9c       0x14 release\lsGameAnalytics_register.os
+ .text._ZL43lsGameAnalysticsSetMaximumEventStorage_wrapi
+                0x00001bb0       0x18 release\lsGameAnalytics_register.os
+ .text._ZL33lsGameAnalysticsSetAutoBatch_wrapb
+                0x00001bc8       0x18 release\lsGameAnalytics_register.os
+ .text._ZL36lsGameAnalysticsSetLocalCaching_wrapb
+                0x00001be0       0x18 release\lsGameAnalytics_register.os
+ .text._ZL30lsGameAnalysticsSetUserId_wrapPKc
+                0x00001bf8       0x18 release\lsGameAnalytics_register.os
+ .text._ZL43lsGameAnalysticsLogUnhandledExceptions_wrapv
+                0x00001c10       0x14 release\lsGameAnalytics_register.os
+ .text._ZL44lsGameAnalysticsSetMinimumFPSTimePeriod_wrapi
+                0x00001c24       0x18 release\lsGameAnalytics_register.os
+ .text._ZL40lsGameAnalysticsSetCriticalFPSLimit_wrapi
+                0x00001c3c       0x18 release\lsGameAnalytics_register.os
+ .text._ZL35lsGameAnalysticsStopLoggingFPS_wrapPKcfff
+                0x00001c54       0x4c release\lsGameAnalytics_register.os
+ .text._ZL27lsGameAnalysticsLogFPS_wrapv
+                0x00001ca0       0x14 release\lsGameAnalytics_register.os
+ .text._ZL38lsGameAnalysticsSetSessionTimeOut_wrapi
+                0x00001cb4       0x18 release\lsGameAnalytics_register.os
+ .text._ZL43lsGameAnalysticsSetNetworkPollInterval_wrapi
+                0x00001ccc       0x18 release\lsGameAnalytics_register.os
+ .text._ZL42lsGameAnalysticsSetSendEventsInterval_wrapi
+                0x00001ce4       0x18 release\lsGameAnalytics_register.os
+ .text._ZL37lsGameAnalysticsNewBusinessEvent_wrapPKcS0_iS0_fff
+                0x00001cfc       0x5c release\lsGameAnalytics_register.os
+ .text._ZL36lsGameAnalysticsSetReferralInfo_wrapPKcS0_S0_S0_S0_S0_
+                0x00001d58       0x48 release\lsGameAnalytics_register.os
+ .text._ZL31lsGameAnalyticsSetUserInfo_wrapPKcii
+                0x00001da0       0x34 release\lsGameAnalytics_register.os
+ .text._ZL32lsGameAnalyticsNewUserEvent_wrapPKcS0_iiS0_fff
+                0x00001dd4       0x64 release\lsGameAnalytics_register.os
+ .text._ZL33lsGameAnalyticsNewErrorEvent_wrapPKcS0_S0_fff
+                0x00001e38       0x58 release\lsGameAnalytics_register.os
+ .text._ZL35lsGameAnalyticsNewQualityEvent_wrapPKcS0_S0_fff
+                0x00001e90       0x58 release\lsGameAnalytics_register.os
+ .text._ZL34lsGameAnalyticsNewDesignEvent_wrapPKcfS0_fff
+                0x00001ee8       0x60 release\lsGameAnalytics_register.os
+ .text._ZL31lsGameAnalyticsStopSession_wrapv
+                0x00001f48       0x14 release\lsGameAnalytics_register.os
+ .text._ZL32lsGameAnalyticsStartSession_wrapv
+                0x00001f5c       0x14 release\lsGameAnalytics_register.os
+ .text._ZL36lsGameAnalyticsIsSessionStarted_wrapv
+                0x00001f70       0x24 release\lsGameAnalytics_register.os
+ .text._ZL33lsGameAnalyticsIsInitialised_wrapv
+                0x00001f94       0x24 release\lsGameAnalytics_register.os
+ .text._ZL30lsGameAnalyticsInitialise_wrapPKcS0_S0_
+                0x00001fb8       0x34 release\lsGameAnalytics_register.os
+ .text.RegisterExt
+                0x00001fec      0x32c release\lsGameAnalytics_register.os
+                0x00001fec                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0x00002318       0x30 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00002318                s3eEdkThreadRunOnOS
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini
+ *(.fini)
+                0x00002348                PROVIDE (__etext, .)
+                0x00002348                PROVIDE (_etext, .)
+                0x00002348                PROVIDE (etext, .)
+
+.rodata         0x00002348      0x5f8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00002348      0x5e6 release\lsGameAnalytics_platform.os
+                                0x5e8 (size before relaxing)
+ *fill*         0x0000292e        0x2 00
+ .rodata.str1.4
+                0x00002930       0x10 release\lsGameAnalytics_register.os
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002940                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002940                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00002940                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00003e80                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x00003e80        0x4
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00003e80        0x4 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+
+.fini_array     0x00003e84        0x8
+ *(.fini_array)
+ .fini_array    0x00003e84        0x4 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00003e88        0x4 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00003e8c       0xd8
+ *(.dynamic)
+ .dynamic       0x00003e8c       0xd8 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00003e8c                _DYNAMIC
+
+.got            0x00003f64       0x9c
+ *(.got.plt)
+ .got.plt       0x00003f64       0x24 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00003f64                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x00003f88       0x78 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00004000                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.data           0x00004000        0x4
+                0x00004000                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00004000        0x4 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00004000                __dso_handle
+
+.data1
+ *(.data1)
+                0x00004004                _edata = .
+                0x00004004                PROVIDE (edata, .)
+                0x00004004                __bss_start = .
+                0x00004004                __bss_start__ = .
+
+.bss            0x00004004       0x74
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00004004       0x74 release\lsGameAnalytics_platform.os
+ *(COMMON)
+                0x00004078                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00004078                _bss_end__ = .
+                0x00004078                __bss_end__ = .
+                0x00004078                . = ALIGN (0x4)
+                0x00004078                . = ALIGN (0x4)
+                0x00004078                __end__ = .
+                0x00004078                _end = .
+                0x00004078                PROVIDE (end, .)
+                0x00004078                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x6d
+ *(.comment)
+ .comment       0x00000000       0x25 C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                                 0x26 (size before relaxing)
+ .comment       0x00000025       0x12 release\lsGameAnalytics_platform.os
+ .comment       0x00000037       0x12 release\lsGameAnalytics.os
+ .comment       0x00000049       0x12 release\lsGameAnalytics_register.os
+ .comment       0x0000005b       0x12 C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(C:\personal_dev\third_party\lsGameAnalystics\lib\android\liblsGameAnalytics.so elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x2d C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .ARM.attributes
+                0x0000002d       0x2d release\lsGameAnalytics_platform.os
+ .ARM.attributes
+                0x0000005a       0x2b release\lsGameAnalytics.os
+ .ARM.attributes
+                0x00000085       0x2d release\lsGameAnalytics_register.os
+ .ARM.attributes
+                0x000000b2       0x2b C:\marmalade\7.0.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.attributes
+                0x000000dd       0x1f C:/android-ndk-r8e/platforms/android-9/arch-arm/usr/lib/crtend_so.o
