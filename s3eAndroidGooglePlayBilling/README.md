@@ -1,5 +1,10 @@
 # Android Google Play Billing
 
+NOTICE
+=======
+
+s3eAndroigGooglePlayBilling is no longer hosted on github, it can now be found in 7.1.2 or highier of the Marmalade SDK
+
 Summary
 =======
 
